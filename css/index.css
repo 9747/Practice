@@ -1,0 +1,704 @@
+.banner .center{
+    position: relative;
+    width: 1518px;
+    height: 443px;
+    margin:0 auto;
+}
+
+.banner .download{
+    position: absolute;
+    left: 765px;
+    bottom: 65px;
+    width: 431px;
+    height: 166px;
+    /* background-color: rgb(228, 78, 78); */
+}
+.banner .download .box{
+    width: 431px;
+    height: 60px;
+}
+.banner .download .left{
+    float: left;
+width: 192px;
+height: 60px;
+margin-right: 22px;
+background-color: #26D98D;
+border-radius: 5px;
+line-height: 60px;
+text-align: center;
+font-size: 20px;
+color: #fff;
+}
+.banner .download .right{
+    float: left;
+width: 192px;
+height: 60px;
+border: #26D98D solid 1px;
+border-radius: 5px;
+line-height: 60px;
+text-align: center;
+font-size: 20px;
+color: #26D98D;
+}
+.banner .download .left:hover{
+    background-color: #21b175;
+}
+.banner .download .right:hover{
+    color: #21b175;
+    border: #21b175 solid 1px;
+}
+.banner .download p{
+    line-height: 3;
+    font-size: 14px;
+    color: #6A707B;
+}
+
+.banner .download .top span{
+    /* display: inline-block; */
+    padding-right: 14px;
+    font-weight: 700;
+    color: #26D98D;
+}
+.banner .download .top .fast{
+    padding-right:0 ;
+    padding-left: 14px;
+    border-left: #26D98D solid 1px;
+    color: #26D98D;
+}
+.banner .download .bot{
+    margin-top: 6px;
+    font-size: 14px;
+}
+.banner .download .bot span{
+    padding:0 14px;
+    border-left: 1px solid #999;
+}
+.banner .download .bot .exe1{
+    padding-left: 0;
+    border-left: 0px solid #000;
+}
+
+/* choose */
+.banner .choose{
+    height: 108px;
+    border-bottom: 1px solid #e5e5e5;
+    /* background-color: rgb(236, 9, 9); */
+}
+.banner .choose li{
+    position: relative;
+    float: left;
+    width: 412px;
+    height: 108px;
+    padding-left: 37px;
+}
+.banner .choose li:hover{
+    border-bottom: 3px solid #19D96E;
+}
+.banner .choose li .content{
+    position: absolute;
+    top: 33px;
+    left: 168px;
+    /* background-color: rgb(18, 194, 156); */
+}
+
+.banner .choose img{
+margin-top: 28px;
+margin-left: 56px;
+}
+.banner .choose li h2{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 28px;
+}
+.banner .choose li p{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 18px;
+    color: #999;
+}
+
+/* 最新动态\快速下载 */
+/* 最新动态 */
+.news{
+    height: 290px;
+    /* background-color: rgb(196, 11, 212); */
+}
+.news .lnew{
+    float: left;
+    width: 898px;
+    height: 290px;
+    /* background-color: rgb(221, 224, 16); */
+}
+.news .rfastdown{
+    float: right;
+    height: 290px;
+    width: 342px;
+    padding-left: 18px;
+    /* background-color: rgb(5, 187, 233); */
+}
+.news .lnew .words{
+    margin: 15px 0;
+    width: 898px;
+}
+.news .rfastdown .words{
+    margin: 15px 0;
+}
+
+.news .lnew .words h3,
+.news .rfastdown .words h3{
+    font-size: 18px;
+    font-weight: normal;
+    display: inline-block;
+    padding-left: 10px;
+    border-left: 2px solid #23ac38;
+}
+.news .lnew .words h3 a,
+.news .rfastdown .words h3 a{
+    color: #23ac38;
+}
+.news .lnew .words a,
+.news .rfastdown .words a{
+    float: right;
+}
+.news .lnew .words a:hover,
+.news .rfastdown .words a:hover{
+    color: #4BBB5C;
+}
+.news .lnew li{
+    float: left;
+    width: 292px;
+    height: 209px;
+    margin-right: 11px;
+    border: #e5e5e5 solid 1px;
+    /* background-color: rgb(15, 206, 142); */
+}
+.news .lnew li:last-child{
+    margin-right: 0px;
+}
+
+.news .lnew li .img{
+    width: 292px;
+    height: 162px;
+    overflow: hidden;
+    /* background-color: rgb(90, 230, 48); */
+}
+.news .lnew li .img img{
+    transition: all 0.3s linear;
+}
+/* 图片缩放 */
+.news .lnew li .img img:hover{
+    /* 图片放大1.08倍 */
+    transform: scale(1.08); 
+    /* transition: all 1s linear;  给原本元素加上过渡时间在鼠标移入移出时都会有动画*/
+}
+
+.news .lnew .title{
+    text-align: center;
+}
+.news .lnew .title a{
+line-height: 46px;
+font-size: 14px;
+padding: 0 5px;
+/* 文字超过部分用省略号代替 */
+display: inline-block;
+width: 292px;
+overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+}
+.news .lnew .title a:hover{
+    color:#23ac38 ;
+}
+
+/* 快速下载 */
+.news .rfastdown li{
+    float: left;
+    width: 108px;
+    height: 104px;
+    text-align: center;
+    border-top: #e5e5e5 solid 1px;
+    border-left: #e5e5e5 solid 1px;
+    transition: all 0.5s;
+    /* background-color: rgb(113, 227, 241); */
+}
+.news .rfastdown li:nth-child(3n){
+    border-right: #e5e5e5 solid 1px;
+}
+.news .rfastdown li:nth-child(n+2){
+    border-bottom: #e5e5e5 solid 1px;
+}
+.news .rfastdown li:hover{
+    box-shadow:1px 5px 10px rgba(128, 128, 128, 0.3);
+    transform: translate(-1px,-2px);
+}
+.news .rfastdown li img{
+margin-top: 17px;
+}
+.news .rfastdown li p{
+    margin: 5px 0 2px;
+}
+.news .rfastdown li button{
+    border: #e5e5e5 solid 1px;
+    background-color: #fff;
+    font-size: 12px;
+}
+.news .rfastdown li button:hover{
+    background-color: #e5e5e5;
+}
+
+
+/* 安全热点关注 */
+.hot .title h3{
+    border-left: 2px solid #23ac38;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+
+}
+.hot .title h3 a{
+    color: #23AC38;
+}
+.hot li{
+    position: relative;
+    float: left;
+    width: 392px;
+    height: 140px;
+    margin-right: 32px;
+    transition: all 0.5s;
+    /* background-color: rgb(22, 202, 67); */
+}
+.hot li:hover{
+    box-shadow:1px 3px 10px rgba(128, 128, 128, 0.3);
+    transform: translate(-1px,-2px);
+}
+.hot li:last-child{
+    margin-right: 0;
+}
+.hot li img{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+.hot li div{
+    width: 205px;
+    position: absolute;
+    top: 40px;
+    left: 132px;
+}
+.hot li div h2{
+    font-size: 16px
+}
+.hot li div p{
+    margin-top: 5px;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+
+
+/* 360安全软件\360商城 */
+/* 360安全软件 */
+.mixbox{
+    margin-top: 20px;
+}
+.mixbox .softwarehub{
+    float: left;
+    width: 607px;
+    height: 778px;
+    /* background-color: rgb(46, 238, 103); */
+}
+.mixbox .softwarehub h2{
+    /* float: left; */
+    padding-left: 10px;
+    border-left: 2px solid #23ac38;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #23ac38;
+}
+.mixbox .softwarehub .softwareli{
+    position: relative;
+    float: left;
+    padding: 20PX 20px;
+    width: 303px;
+    height: 140px;
+    border-top: #e5e5e5 solid 1px;
+    border-left: #e5e5e5 solid 1px;
+    /* background-color: rgb(28, 230, 203); */
+}
+.mixbox .softwarehub li:nth-child(2n){
+    border-right: #e5e5e5 solid 1px;
+}
+.mixbox .softwarehub li:nth-child(n+7){
+    border-bottom: #e5e5e5 solid 1px;
+}
+.mixbox .softwarehub li,
+.mixbox .shop li{
+    transition: all 0.5s;
+}
+.mixbox .softwarehub li:hover,
+.mixbox .shop li:hover{
+    box-shadow:1px 3px 10px rgba(128, 128, 128, 0.3);
+    transform: translate(-1px,-2px);
+}
+.mixbox .softwarehub .softwareli img{
+position: absolute;
+top: 35px;
+left: 40px;
+width: 60px;
+}
+.mixbox .softwarehub .softwareli .content{
+    position: absolute;
+top: 38px;
+left: 115px;
+}
+.mixbox .softwarehub .softwareli .content p{
+height: 30px;
+font-size: 18px;
+}
+.mixbox .softwarehub .softwareli .content button{
+width: 62px;
+height: 30px;
+margin-right: 6px;
+border: #e5e5e5 solid 1px;
+background-color: #fff;
+border-radius: 3px;
+cursor: pointer;
+}
+.mixbox .softwarehub .softwareli .content button:hover{
+background-color: #F5F5F5;
+}
+.mixbox .softwarehub .softwareli .content .team{
+    margin-right: 5px;
+    font-size: 12px;
+    border-bottom: 1px solid #999;
+    color: #999;
+}
+.mixbox .softwarehub .softwareli .content .team:hover{
+    color: #000;
+    border-bottom: 0px solid #999;
+}
+
+/* 软件下面字列表 */
+.mixbox .softwarehub .p1,
+.mixbox .softwarehub .p2,
+.mixbox .softwarehub .p3{
+    width: 550px;
+    height: 30px;
+    margin-left: 10px;
+    /* background-color: rgb(214, 21, 21); */
+    margin-top: 20px;
+}
+.mixbox .softwarehub dt,
+.mixbox .softwarehub dd{
+    height: 28px;
+    float: left;
+    font-size: 13px;
+    line-height: 28px;
+    color: #333;
+}
+.mixbox .softwarehub dt{
+    padding: 0 20px 0 32px;
+    font-weight: 700;
+}
+.mixbox .softwarehub dd a{
+    padding: 0 10px;
+    border-right: #999 solid 1px;
+}
+.mixbox .softwarehub dd:last-child a{
+border-right: #000 solid 0;
+    color: #999;
+}
+.mixbox .softwarehub dd:hover a{
+    color: #23ac38;
+}
+/* dt前精灵图 */
+.mixbox .softwarehub .jingling1:before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 0;
+}
+.mixbox .softwarehub .jingling2::before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 -44px;
+}
+.mixbox .softwarehub .jingling3:before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 -90px;
+}
+
+
+/* 360商城 */
+.mixbox .shop{
+    float: right;
+    width: 607px;
+    height: 778px;
+    /* background-color: rgb(46, 238, 103); */
+}
+.mixbox .shop h2{
+    /* float: left; */
+    padding-left: 10px;
+    border-left: 2px solid #23ac38;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #23ac38;
+}
+
+.mixbox .shop .lilbanner{
+    width: 606px;
+    height: 281px;
+    /* background-color: rgb(184, 223, 13); */
+}
+
+/* 360商城轮播图下内容 */
+.mixbox .shop .goodsli{
+    position: relative;
+    float: left;
+    padding: 20PX 20px;
+    width: 303px;
+    height: 140px;
+    border-top: #e5e5e5 solid 1px;
+    border-left: #e5e5e5 solid 1px;
+    /* background-color: rgb(28, 230, 203); */
+}
+.mixbox .shop li:nth-child(2n){
+    border-right: #e5e5e5 solid 1px;
+}
+.mixbox .shop li:nth-child(n+2){
+    border-bottom: #e5e5e5 solid 1px;
+}
+.mixbox .shop .goodsli img{
+position: absolute;
+top: 20px;
+left: 188px;
+width: 90px;
+}
+.mixbox .shop .goodsli .content{
+    position: absolute;
+top: 40px;
+left: 56px;
+}
+.mixbox .shop .goodsli .content a{
+line-height: 2;
+}
+.mixbox .shop .goodsli .content p{
+    font-size: 13px;
+    color: #fc6721;
+}
+
+/* 360商城下面的一堆文字 */
+.mixbox .shop .p1,
+.mixbox .shop .p2,
+.mixbox .shop .p3{
+    width: 550px;
+    height: 30px;
+    margin-left: 10px;
+    /* background-color: rgb(214, 21, 21); */
+    margin-top: 20px;
+}
+
+.mixbox .shop dt,
+.mixbox .shop dd{
+    height: 28px;
+    float: left;
+    font-size: 13px;
+    line-height: 28px;
+    color: #333;
+}
+.mixbox .shop dt{
+    padding: 0 20px 0 32px;
+    font-weight: 700;
+}
+.mixbox .shop dd a{
+    padding: 0 10px;
+    border-right: #999 solid 1px;
+}
+.mixbox .shop dd:last-child a{
+border-right: #000 solid 0;
+    color: #999;
+}
+.mixbox .shop dd:hover a{
+    color: #23ac38;
+}
+/* dt前精灵图 */
+.shop .jingling1:before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 -130px;
+}
+.shop .jingling2::before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 -178px;
+}
+.shop .jingling3:before{
+    content: "";
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu2.png);
+    background-position: 0 -223px;
+}
+
+/* 新闻动态\安全咨询\社区热帖\电脑安全 */
+.other{
+    height: 420px;
+    margin-top: 10px;
+}
+.other .p1{
+    float: left;
+    margin-right: 13px;
+    width: 300px;
+    height: 420px;
+    /* background-color: rgb(223, 5, 212); */
+}
+.other .p4{
+    margin-right: 0px;
+}
+.other h2{
+    padding-left: 10px;
+    border-left: 2px solid #23ac38;
+    height: 27px;
+    margin-bottom: 10px;
+    line-height: 27px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #23ac38;
+}
+.other .borderbox{
+    height: 380px;
+    border: #e5e5e5 solid 1px;
+}
+.other .p1 .img{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    /* background-color: rgb(28, 195, 224); */
+}
+.other .p1 .img img{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.other .p1 .img img:hover{
+    transform: scale(1.08);
+}
+.other .p1 .img h3{
+    position: absolute;
+    top: 168px;
+    left: 0;
+    height: 32px;
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    padding: 0 5px;
+    /* 多出部分被用省略号代替 */
+    overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+
+    background-color: #070D10;
+    color: #fff;
+}
+.other .p1 li{
+    height: 27px;
+    width: 270px;
+    margin-left: 15px;
+    list-style: disc;
+    color: #333;
+    /* 下面三行代码为文字超出后用...代替 */
+    overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+/* 在使用overflow:hidden后li标签前面的小圆点会消失,用以下方法解决 */
+list-style-position: inside;
+}
+.other .p1 li:first-child{
+    margin-top: 9px;
+}
+.other .p1 li a{
+    font-size: 13px;
+    color: #333;
+}
+.other .p1 li:hover a{
+    color: #23ac38;
+}
+.other .p1 .more{
+    margin-left: 236px;
+    color: #999;
+    font-size: 12px;
+}
+.other .p1 .more:hover{
+    color: #23ac38;
+}
+
+/* 回到顶部 */
+.feedbackbox{
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+    width: 60px;
+    height: 150px;
+    text-align: center;
+    line-height: 1.5;
+    /* background-color: rgb(212, 10, 152); */
+    font-size: 12px
+}
+.feedback{
+    padding-top: 10px;
+margin-bottom: 10px;
+background-color: #fff;
+border: 1px solid #e5e5e5;
+border-radius: 5px;
+}
+.feedbackbox .top{
+    padding-top: 10px;
+background-color: #fff;
+border: 1px solid #e5e5e5;
+border-radius: 5px;
+}
+.feedbackbox .feedback:hover,
+.feedbackbox .top:hover{
+    background-color: #3ba354;
+}
+.feedbackbox b{
+    font-size: 20px;
+}

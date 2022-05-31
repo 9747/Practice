@@ -1,0 +1,193 @@
+.wrapper{
+    width: 1200px;
+    margin:0 auto;
+}
+
+/* head */
+.headbox .head{
+    height: 70px;
+    /* background-color: pink; */
+}
+.headbox .head h1{
+    display: inline-block;
+    margin-right: 19px;
+}
+.head .fengexian{
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    font-size: 20px;
+    color: #999;
+}
+.head ul{
+    float: right;
+}
+.head ul li{
+    float: left;
+    margin-right: 32px;
+}
+.head ul li a{
+    font-size: 14px;
+    line-height: 70px;
+}
+.head ul li:hover a{
+    color: #00C89F;
+}
+
+/* 主体 */
+.bodybox{
+    height: 640px;
+    background-color: #21222D;
+    
+}
+
+.body{
+position: relative;
+height: 640px;
+}
+.body .img{
+    width: 828px;
+    height: 640px;
+}
+.signin{
+    position: relative;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 372px;
+    height: 428px;
+    transform: translateY(-50%);
+    padding: 0 30px;
+    background-color: #fff;
+
+    /* 入场动画 */
+    animation-name: move;
+    animation-duration: 2s;
+}
+@keyframes move{
+    0%{left: -35%;}
+    50%{left: 69%;}
+    100%{left: max;}
+}
+
+.signin .way{
+    margin-top: 32px;
+}
+.signin .way p{
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 6px;
+}
+.usezh{
+    border-bottom: 2px solid #00c89f;
+}
+.usedx{
+    opacity: 0.5;
+}
+
+.signin .way .spacing{
+    margin: 0 16px;
+    border-bottom: 0px solid #000;
+    color: #999;
+}
+
+.signin .zhanghao,
+.signin .mima{
+    width: 308px;
+    height: 42px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.zhanghao::placeholder{
+    color: #f65d6b;
+}
+.signin .zhanghao:hover,
+.signin .mima:hover{
+    border: 1px solid #00cf7d;
+}
+
+.signin .zhanghao{
+    margin: 30px 0 20px;
+}
+.signin .mima{
+    margin-bottom: 20px;
+}
+
+.tongyi{
+    background-color: #999;
+    color: #999;
+}
+.signin b{
+    margin: 20px 0;
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+.signin b a{
+    color: #00c89f;
+}
+.signin .denglu{
+    margin: 20px 0 10px;
+    width: 308px;
+    height: 42px;
+    background-color: #00cf7d;
+    opacity: 0.5;
+    transition: all 1s;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+}
+.signin .denglu:hover{
+    opacity: 1;
+}
+
+.signin .forget,
+.signin .icon .zhuce{
+    font-size: 14px;
+}
+.signin .forget:hover,
+.signin .icon .zhuce:hover{
+    color: #00c89f;
+}
+
+.signin .icon{
+    position: absolute;
+bottom: 0;
+left: 0;
+    width: 372px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    border-top: 1px solid #e3e3e3;
+    background-color: #f7f8f8;
+}
+.signin .icon a{
+    font-size: 22px;
+    padding-right: 10px;
+    color: #999;
+}
+.signin .icon .icon-QQ:hover{
+    color: #4e9ff9;
+}
+.signin .icon .icon-weixin:hover{
+    color: #5ec12a;
+}
+.signin .icon .icon-xinlangweibo:hover{
+    color: #f65d6b;
+}
+.signin .icon .zhuce{
+    float: right;
+    color: #999;
+}
+
+/* footer */
+.footer, .footer a{
+    margin: 50px 0 70px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2;
+    color: #999;
+}

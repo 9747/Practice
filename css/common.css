@@ -1,0 +1,283 @@
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/* head */
+.headfixed{
+    position: fixed;
+    z-index:999;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+}
+
+.tuobiao{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.head{
+    height: 120px;
+    text-align: center;
+}
+
+.head h1{
+        display: inline-block;
+        margin-right: 24px;
+        margin-left: 75px;
+}
+.head .search{
+position: relative;
+    display: inline-block;
+    margin-top: 35px;
+    /* background-color: rgb(207, 13, 13); */
+}
+.head .search .input{
+    width: 524px;
+    height: 40px;
+    padding: 6px 0;
+    text-align: left;
+border: 1px solid #BEBEBE;
+}
+.head .search .input select{
+    border: #fff solid 0px;
+    color: #999999;
+    cursor: pointer;
+}
+.head .search .input select option{
+
+    font-size: 14px;
+}
+.head .search button{
+    position: absolute;
+    right: 0;
+    top: 0;
+width: 118px;
+height: 40px;
+font-size: 17px;
+cursor: pointer;
+background-color: #19B955;
+border: 0px solid #fff;
+color: #fff;
+}
+.head .search ul li{
+    float: left;
+    margin-right: 12px;
+}
+.head .search ul li a{
+    font-size: 13px;
+    line-height: 30px;
+    color: #999999;
+}
+.head .search ul li:hover a{
+    color: #23AC38;
+}
+
+.head .search a{
+    float: right;
+    font-size: 13px;
+    line-height: 30px;
+    color: #999999;
+}
+.head .search a:hover{
+    color: #23AC38;   
+}
+
+
+/* 搜索栏右面中文登录部分 */
+.head .right{
+    float: right;
+}
+.head .right li{
+    float: left;
+}
+.head .right li a{
+    line-height: 105px;
+    color: #999999;
+}
+.head .right li:first-child{
+    margin-right: 12px;
+}
+.head .right li:first-child a{
+    color: #23AC38;
+}
+.head .right li:nth-child(2){
+    margin-right: 30px;
+}
+.head .right li:nth-child(3) a{
+    padding-right: 8px;
+    border-right: 1px solid #EDE7E2;
+}
+.head .right li:nth-child(4){
+    margin-left: 8px;
+}
+.head .right li:hover a{
+    color: #23AC38;
+}
+
+
+/* 菜单栏!!!nav */
+.nav{
+    position: relative;
+    margin-top: 120px;
+    height: 60px;
+    border-top: #ebebeb solid 1px;
+    background-color: #F5F5F5;
+}
+.nav .list{
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+.nav .list .ul1{
+    display: inline-block;
+    height: 60px;
+    background-color: #F5F5F5;
+}
+.nav .list .li1{
+    display: inline-block;
+    padding-right: 36px;
+    line-height: 60px;
+}
+.nav .list .li1:nth-of-type(11){
+    padding-right: 0px;
+}
+/* 设置矢量图字体样式 */
+.nav .list .li1 a{
+    font-family: 'icomoon';
+}
+
+/* 下拉菜单 */
+.nav .list .ul1 .ul2{
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 59px;
+    width: 100%;
+    height: 0px;
+    overflow: hidden;
+    text-align: left;
+    /* display: none;  这里用overflow:hidden代替 */
+    background-color: #fff;
+    transition: all 1s;
+}
+.nav .list .ul1 .ul2 div{
+    width: 1100px;
+    margin: auto;
+    background-color: rgb(44, 236, 19);
+}
+.nav .list .ul1 .ul2 .li2{
+    margin-right: 25px;
+    float: left;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 200px;
+}
+.nav .list .ul1 .ul2 .li2:last-child{
+    margin-right: 0;
+}
+
+.nav .list .ul1 .li1 .ul2 .li2 .li3 a{
+    font-size: 14px;
+    line-height: 60px;
+    color: #666;
+}
+/* 下拉菜单过渡 */
+.nav .list .ul1 .li1:hover .ul2{
+    height: 400px;
+    /* transition: all 1s;   给原本元素加上transition打开关闭都会有过渡动画*/
+}
+.nav .list li:hover a,
+.nav .list .ul1 .li1 .ul2 .li2 .li3:hover a{
+    color: #23AC38;
+}
+
+
+
+/* 关于 */
+.about{
+    height: 300px;
+    margin-top: 60px;
+    padding-top: 50px;
+    background-color: #F6F6F6;
+}
+.about .content .ul1{
+    background-color: #F6F6F6;
+}
+.about .content .li1{
+    float: left;
+    width: 180px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-left: 1px solid #e5e5e5;
+}
+.about .content .li1:first-child{
+    border-left: 0px solid #e5e5e5;
+}
+.about .content .li2{
+    font-size: 14px;
+    line-height: 2;
+    color: #666;
+}
+.about .content .li2:hover a{
+    color: #23AC38;
+}
+
+/* 关于我们，二维码 */
+.about .content .contact{
+    float: right;
+    width: 270px;
+    height: 200px;
+    /* background-color: rgb(211, 8, 218); */
+}
+.about .content .contact .top{
+    margin-bottom: 20px;
+}
+.about .content .contact .top span{
+font-size: 16px;
+font-weight: 700;
+}
+.about .content .contact .top a{
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
+.about .content .contact .top a:hover{
+    color: #23ac38;
+}
+/* 微博精灵图 */
+.about .content .contact .top a::before{
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background-image: url(../image/jinglingtu1.png);
+    background-position: -150px -484px;
+}
+    .about .content .contact .left{
+        display: inline-block;
+        margin-right: 20px;
+        width: 120px;
+        height: 120px;
+        background-color: rgb(14, 139, 241);
+    }
+    .about .content .contact .right{
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        background-color: rgb(29, 238, 10);
+    }
+
+    /* footer */
+    .footer, .footer a{
+        margin: 50px 0 70px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 2;
+        color: #999;
+    }
